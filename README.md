@@ -21,3 +21,19 @@ pip install shinywidgets
 
 ---
 
+## Serving the dashboard
+
+* Open the Python command prompt
+* Navigate to the repository folder
+* Export the app via ShinyLive to the docs folder:  
+  `shinylive export data docs`
+* View the app locally:  
+  `python -m http.server --directory docs --bind localhost 8008`  
+  Then open the browser locally - [link](http://localhost:8008)
+* If the app.json file exceeds 100mb, enable Git LFS:
+  * Open the repo in the Git bash shell
+  * Type the command `git lfs track docs/app.json`
+  * Commit the file
+  * Push the file
+* Enable pages on GitHub
+
