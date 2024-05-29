@@ -18,8 +18,8 @@ from branca.colormap import linear
 from shiny import ui, render, App
 
 #%%Read in LDAS data (long format)
-df_merged = pd.read_pickle(Path(__file__).parent.parent / 'data/Loreto_merged_data.pkl')
-gdf_districts = gpd.GeoDataFrame(pd.read_pickle(Path(__file__).parent.parent / 'data/Peru_departamentos.pkl'))
+df_merged = pd.read_pickle(Path(__file__).parent / 'Loreto_merged_data.pkl')
+gdf_districts = gpd.GeoDataFrame(pd.read_pickle(Path(__file__).parent / 'Peru_departamentos.pkl'))
 
 #Filter function (whenever the LDAS variable changes)
 def filter_data(df=df_merged, var='Rainfall(mm)', species='p_fal'):
