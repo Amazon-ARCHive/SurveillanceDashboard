@@ -1,0 +1,12 @@
+{
+    "https://api.shinyapps.io": {
+        "server_url": "https://api.shinyapps.io",
+        "filename": "C:\\Workspace\\ARCCCOH\\SurveillanceDashboard\\src",
+        "app_url": "https://johnpfay.shinyapps.io/case-ldas-correlations1/",
+        "app_id": 12096711,
+        "app_guid": null,
+        "title": "Case-LDAS-correlations",
+        "app_mode": "python-shiny",
+        "app_store_version": 1
+    }
+}
