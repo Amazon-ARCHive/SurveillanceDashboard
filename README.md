@@ -17,7 +17,7 @@ conda install -c esri folium
 conda install -c conda-forge shiny -y
 pip install shinylive
 pip install shinywidgets
-pip install rsconnect
+pip install rsconnect-python
 ```
 
 ---
