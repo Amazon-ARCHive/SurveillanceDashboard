@@ -1,0 +1,6 @@
+geopandas
+pandas
+scipy
+shinywidgets
+ipyleaflet
+matplotlib
